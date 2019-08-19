@@ -4,16 +4,13 @@
 ## Description
 
 A basic Vaadin frontend that support CRUD with minimal interface connected to a H2 database backend. 
+This application consist of 2 tables that user can modify(add/update/delete) the content of each tables as well as filter the information with any combinations. 
 
 Screen shot : 
 
 ![UI](https://github.com/duongtuanhiep/basic-vaadin-crud/blob/master/tesstrun02.png)
 ![UI](https://github.com/duongtuanhiep/basic-vaadin-crud/blob/master/testrun01.png)
 
-
-## Fucntionality
-
-This application consist of 2 tables that user can modify(add/update/delete) the content of each tables and the 
 
 ## Installation 
 
@@ -30,4 +27,26 @@ spring.h2.console.enabled=true
 spring.datasource.url=jdbc:h2:mem:hiepbodoi
 ```
 
-The 
+If you wish to use the H2 database, you can also access H2 console to inspect or modify the tables through : 
+```
+http://localhost:8080/h2-console/
+```
+![console](https://github.com/duongtuanhiep/basic-vaadin-crud/blob/master/dbconsole.png)
+
+The username and password by default is : 
+```
+username : sa
+password :
+NOTE : password is empty 
+```
+
+
+The data added to the database is read from the file "data.sql" located in \src\main\resources\. When the application start up, after the table is created, the application will read the file and execute all the script. You can modify or delete this file if you already have an existing database. A sample of the current data.sql script file : 
+```
+insert into TEAM values (2,'TESTDATA2','TESTDATA02') ;
+insert into TEAM values (3,'TESTDATA3','TESTDATA03') ;
+insert into EMPLOYEE values ('test01',1,'testmail1@gmail.com','test01','test01',1);
+insert into EMPLOYEE values ('test02',0,'testmail2@gmail.com','test02','test02',1);
+```
+
+
