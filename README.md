@@ -11,6 +11,16 @@ Screen shot :
 ![UI](https://github.com/duongtuanhiep/basic-vaadin-crud/blob/master/tesstrun02.png)
 ![UI](https://github.com/duongtuanhiep/basic-vaadin-crud/blob/master/testrun01.png)
 
+## Built with 
+
+This application was built using : 
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [H2 Database](https://www.h2database.com/html/main.html)
+- [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
+- [Spring web mvc](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)
+- [Vaadin](https://vaadin.com/)
+
+
 
 ## Installation 
 
@@ -49,4 +59,6 @@ insert into EMPLOYEE values ('test01',1,'testmail1@gmail.com','test01','test01',
 insert into EMPLOYEE values ('test02',0,'testmail2@gmail.com','test02','test02',1);
 ```
 
+## Contributing & author
 
+Duong Tuan Hiep - Duongtuanhiep18398@gmail.com
