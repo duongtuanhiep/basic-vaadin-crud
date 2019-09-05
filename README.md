@@ -19,7 +19,7 @@ This application was built using :
 - [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
 - [Spring web mvc](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)
 - [Vaadin](https://vaadin.com/)
-
+- [devtool](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html)
 
 
 ## Installation 
