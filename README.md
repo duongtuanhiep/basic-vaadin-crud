@@ -24,7 +24,7 @@ This application was built using :
 
 ## Installation 
 
-This project is a spring boot project using maven. You can clone this project to your local computer andd import into your local Spring Tool Suite as maven project. 
+This project is a spring boot project using maven. You can download this project to your local computer andd import into your local Spring Tool Suite as maven project. 
 
 
 ## Usage 
